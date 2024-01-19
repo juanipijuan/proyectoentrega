@@ -1,0 +1,43 @@
+/* ---------------Generales------------------------*/
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1000;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+.imagen{
+    width: 30vh;
+}
+
+h2{
+    color: rgb(0, 0, 255);
+}
+
+/* ---------------Main------------------------*/
+.main{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/ /*borrar*/
+    background-position: center;
+    height: 100vh;
+    /*width: 100%;*/ /*borrar*/
+    color: white;
+    font-size: large;
+    text-align: center;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------FOOTER------------------------*/
+.footer{
+    background-color: rgb(12, 73, 240);
+    font-size: larger;
+}
