@@ -9,7 +9,19 @@
 }
 
 .imagen{
-    width: 30vh;
+    width: 25vh;
+}
+
+@media only screen and (min-width:600px){
+    .imagen{
+        width:50vh;
+    }
+}
+
+@media only screen and (min-width:900px){
+    .imagen{
+        width:80vh;
+    }
 }
 
 h2{
@@ -20,10 +32,8 @@ h2{
 .main{
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
-    /*background-size: 100%;*/ /*borrar*/
     background-position: center;
     height: 100vh;
-    /*width: 100%;*/ /*borrar*/
     color: white;
     font-size: large;
     text-align: center;
