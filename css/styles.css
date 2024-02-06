@@ -1,53 +1,37 @@
-/* ---------------Generales------------------------*/
-.texto{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1000;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
+h1 {
+  color: rgb(255, 0, 0);
 }
 
-.imagen{
-    width: 25vh;
+h2 {
+  color: rgb(0, 0, 255);
 }
 
-@media only screen and (min-width:600px){
-    .imagen{
-        width:50vh;
-    }
+.contenedor {
+  display: flex;
+  justify-content: center;
 }
 
-@media only screen and (min-width:900px){
-    .imagen{
-        width:80vh;
-    }
+@media only screen and (min-width: 320px) {
+  .imagen {
+    width: 50vh;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .imagen {
+    width: 80vh;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .imagen {
+    width: 100%;
+  }
+}
+footer {
+  background-color: rgb(0, 0, 255);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: underline;
 }
 
-h2{
-    color: rgb(0, 0, 255);
-}
-
-/* ---------------Main------------------------*/
-.main{
-    background-image: url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    color: white;
-    font-size: large;
-    text-align: center;
-
-}
-
-.contenedor{
-    display: flex;
-    justify-content: center;
-}
-
-
-/* ---------------FOOTER------------------------*/
-.footer{
-    background-color: rgb(12, 73, 240);
-    font-size: larger;
-}
+/*# sourceMappingURL=styles.css.map */

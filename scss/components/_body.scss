@@ -1,0 +1,30 @@
+h1{
+    color: ($colorh1);
+}
+
+h2{
+    color: ($colorh2);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: nth($tamanioPantalla,1)){
+    .imagen{
+        width: 50vh;
+    }
+}
+
+@media only screen and (min-width: nth($tamanioPantalla,2)){
+    .imagen{
+        width: 80vh;
+    }
+}
+
+@media only screen and (min-width: nth($tamanioPantalla,3)){
+    .imagen{
+        width: 100%;
+    }
+}
